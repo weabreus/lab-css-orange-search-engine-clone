@@ -1,33 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;800&family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Orange Search Engine Clone</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-logo">
+        <img
+          class="logo-img"
+          src="./images/orange-logo.svg"
+          alt="Orange Logo"
+        />
+        <h1>Orange</h1>
+      </div>
 
-Orange
+      <ul>
+        <li>
+          <div></div>
+          Benefit
+        </li>
+        <li>Pricing</li>
+        <li>Testimonials</li>
+      </ul>
+    </header>
 
-Search the web
+    <main class="main">
+      <div class="carousel">
+        <img
+          src="./images/orange-search-engine-phone.png"
+          alt="Phone with orange logo"
+        />
+      </div>
 
-Benefit
-Pricing
-Testimonials
-			
-Tired of your data being squeezed? Here to help!
-			
-Get the online privacy protection you deserve for free with one download in the App Store:
-			
-Private Search
-Tracker Blocking
-Site Encryption
-
-Download now
-
-Rate 4/5
-
-Privacy for everyone
-    
-</body>
+      <div class="content-card">
+        <div class="input-container">
+          <input type="text" placeholder="Search the web" />
+          <div class="input-icon-container">
+            <img
+              class="input-hidden"
+              src="./images/x-solid-icon.svg"
+              alt="x-solid-icon"
+            />
+            <div class="spacer input-hidden"></div>
+            <img src="./images/search-icon.svg" alt="Search Icon" />
+          </div>
+        </div>
+        <h1>Tired of your data being squeezed? Here to help!</h1>
+        <p>
+          Get the online privacy protection you deserve for free with one
+          download in the App Store:
+        </p>
+        <div class="features">
+          <ul>
+            <li>Private Search</li>
+            <li>Tracker Blocking</li>
+            <li>Site Encryption</li>
+          </ul>
+        </div>
+        <div class="button-container">
+          <button>Download now</button>
+          <p>
+            <img src="./images/star-blue-icon.svg" /><img
+              src="./images/star-blue-icon.svg"
+            /><img src="./images/star-blue-icon.svg" /><img
+              src="./images/star-blue-icon.svg"
+            /><img src="./images/star-grey-icon.svg" /> Rated 4/5
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Privacy for everyone</p>
+    </footer>
+  </body>
 </html>
